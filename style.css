@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #1ad9b9;
+    padding: 300px;
+}
+
+img {
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: #ff0015;
+}
+
+.about {
+    font-family: monospace;
+}
+
+.textcss {
+    font-family: serif;
+}
+
+#computer {
+    border-radius: 0%;
+    width: 1050px;
+}
+
+.link:hover {
+    background-color: #1fedb3;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    font-family: fantasy;
+    z-index: 10;
+    right: 30px;
+    cursor: pointer;
+}
+.link {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
